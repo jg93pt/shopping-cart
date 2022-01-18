@@ -4,3 +4,48 @@ body {
   background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #5B86E5, #36D1DC); 
 }
+
+h2 {
+  color: #000;
+  font-weight: lighter;
+}
+
+.container {
+  margin-top: 30px;
+  box-shadow:0 .5rem 1rem;
+  background-color: #fff; 
+}
+
+.Qty-input{
+  padding-bottom: 5px;
+  width: 50px;
+}
+
+.spacetable{
+  height: 60px;
+}
+
+
+
+/*Remove the border top and bottom line in smaller screens*/
+@media (max-width: 767px)
+{
+  .table-responsive {
+    border-top: none;
+    border-bottom: none;
+  }
+}
+
+.form-div{
+  margin: 10px;
+}
+
+.input-size{
+  margin-right: 20px;
+  width: 100px;
+}
+
+.totalPrice{
+  margin: 20px 10px;
+}
+  
