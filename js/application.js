@@ -62,7 +62,7 @@ $(document ).ready(function() {
     
      //Empty the add inputs:
      item = $(this).children('[name=item]').val('');
-     price = $(this).children('name=price').val('');
+     price = $(this).children('[name=price]').val('');
     });
 
    
