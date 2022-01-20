@@ -55,7 +55,7 @@ $(document ).ready(function() {
     $('tbody').prepend('<tr class="spacetable transit">' + 
     '<td class="item">' + item + '</td>' +
     '<td class="price">' + price + " €" + "</td>" +
-    '<td class="quantity"><input class="Qty-input" type="number"/></td>' +
+    '<td class="quantity"><input class="Qty-input" type="number" min="0"/></td>' +
     '<td><button class="btn btn-danger btn-remove">Remove</button></td>' + 
     '<td class="item-subtotal">€--.--</td>' + 
     '</tr>');

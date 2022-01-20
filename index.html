@@ -34,35 +34,35 @@
         <tr class="spacetable">
           <td class="item">Milk</td>
           <td class="price">7 €</td>
-          <td class="quantity"><input class="Qty-input" type="number"/></td>
+          <td class="quantity"><input class="Qty-input" type="number" min="0"/></td>
           <td><button class="btn btn-danger btn-remove">Remove</button></td>
           <td class="item-subtotal">€--.--</td>
         </tr>
         <tr class="spacetable">
           <td class="item">Water</td>
           <td class="price">1 €</td>
-          <td class="quantity"><input class="Qty-input" type="number"/></td>
+          <td class="quantity"><input class="Qty-input" type="number" min="0"/></td>
           <td><button class="btn btn-danger btn-remove">Remove</button></td>
           <td class="item-subtotal">€--.--</td>
         </tr>
         <tr class="spacetable">
           <td class="item">Orange</td>
           <td class="price">2 €</td>
-          <td class="quantity"><input class="Qty-input" type="number"/></td>
+          <td class="quantity"><input class="Qty-input" type="number" min="0"/></td>
           <td><button class="btn btn-danger btn-remove">Remove</button></td>
           <td class="item-subtotal">€--.--</td>
         </tr>
         <tr class="spacetable">
           <td class="item">Banana</td>
           <td class="price">3 €</td>
-          <td class="quantity"><input class="Qty-input" type="number"/></td>
+          <td class="quantity"><input class="Qty-input" type="number" min="0"/></td>
           <td><button class="btn btn-danger btn-remove">Remove</button></td>
           <td class="item-subtotal">€--.--</td>
         </tr>
         <tr class="spacetable">
           <td class="item">Glass</td>
           <td class="price">10 €</td>
-          <td class="quantity"><input class="Qty-input" type="number" value =""/></td>
+          <td class="quantity"><input class="Qty-input" type="number" min="0"/></td>
           <td><button class="btn btn-danger btn-remove">Remove</button></td>
           <td class="item-subtotal">€--.--</td>
         </tr>
@@ -70,7 +70,7 @@
       </table>
       <form id ="addItem" class="form-style"> 
         <input class="input-size" name="item" type="text" placeholder="Item" required/>
-        <input class="input-size" name="price" type="number" placeholder="Price" required patterns ="[0-9]"/>
+        <input class="input-size" name="price" type="number" placeholder="Price" min="0" required patterns ="[0-9]"/>
         <button class="btn btn-success btn-md btn-add">Add</button>
       </form>
       <div class="col-xs-12">
