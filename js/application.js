@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+$(document ).ready(function() {
   //Function for subtotal sum and total sum:
   var sum = function () {
     // getting the variables initial values:
